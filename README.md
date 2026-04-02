@@ -2,7 +2,7 @@
 <div align="center">
 	<br />
 	<p>
-	<img src="https://raw.githubusercontent.com/unlbslk/arch-deckify/refs/heads/main/banner.png" width="500" alt="Banner" /></a>
+	<img src="https://raw.githubusercontent.com/dim-ghub/arch-deckify/refs/heads/main/banner.png" width="500" alt="Banner" /></a>
 	</p>
 	<br />
 	<p>
@@ -11,7 +11,7 @@
 # 🎮 Arch-Deckify
 A script to easily set up a SteamOS-like gaming environment on Arch Linux.
 This script is designed to bring SteamOS-style session switching to Arch Linux. It automates the installation and setup of a **Gaming Mode (Gamescope)** and a **Desktop Mode (Wayland session)**, along with configuration for **SDDM** and several optional components.
-> 🌐 For more information, see the documents page: https://unlbslk.github.io/arch-deckify/
+> 🌐 For more information, see the documents page: https://dim-ghub.github.io/arch-deckify/
 ## 📌 Features:
 - **Wayland Session Selector**: Allows you to choose a desktop session for your system.
 - **Gamescope Gaming Mode**: Switch to a full-screen gaming experience similar to SteamOS. It uses [gamescope-session-steam](https://github.com/ChimeraOS/gamescope-session-steam) (Thanks to ChimeraOS team for this).
@@ -34,12 +34,12 @@ This script is designed to bring SteamOS-style session switching to Arch Linux. 
 
 **Run this command in your terminal and follow the instructions:**
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/unlbslk/arch-deckify/refs/heads/main/install.sh)" --
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/dim-ghub/arch-deckify/refs/heads/main/install.sh)" --
 ```
 
-> ℹ️ See the docs for more information: https://unlbslk.github.io/arch-deckify/installation/
+> ℹ️ See the docs for more information: https://dim-ghub.github.io/arch-deckify/installation/
 
-![Installation](https://raw.githubusercontent.com/unlbslk/arch-deckify/refs/heads/docs/docs_src/images/installation.png)
+![Installation](https://raw.githubusercontent.com/dim-ghub/arch-deckify/refs/heads/docs/docs_src/images/installation.png)
 
 
 ## ⚠️ Important Notice (READ BEFORE INSTALLING)
@@ -83,7 +83,7 @@ You can also switch between Gaming Mode and Desktop Mode easily using the Steam 
 ### Change Default Desktop
 **To change the session used when switching to Desktop Mode, run the following script:**
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/unlbslk/arch-deckify/refs/heads/main/change_default_desktop.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/dim-ghub/arch-deckify/refs/heads/main/change_default_desktop.sh)
 ```
 
 ### Updating System
@@ -98,11 +98,11 @@ Please note that it is **not an official tool** and may cause issues. Any potent
 
 **To install Decky Loader:**
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/unlbslk/arch-deckify/refs/heads/main/setup_deckyloader.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/dim-ghub/arch-deckify/refs/heads/main/setup_deckyloader.sh)
 ```
 **To remove Decky Loader:**
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/unlbslk/arch-deckify/refs/heads/main/remove_deckyloader.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/dim-ghub/arch-deckify/refs/heads/main/remove_deckyloader.sh)
 ```
 
 ## Disclaimer
